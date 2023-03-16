@@ -1,0 +1,47 @@
+.container-comments{
+   margin-top: 50px;
+   width:60%;
+   
+}
+
+.newComment{
+    display: flex;
+    align-items:center; 
+    gap: 10px;
+}
+
+.newComment>button{
+    background-color: #0071C2;
+    color:white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.newComment>button:hover{
+    background-color: #000088;
+    color:white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.newComment>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.newComment>input{
+    border: none;
+    /* border-bottom: 1px solid ${({ theme }) => theme.soft}; */
+    border-bottom: 1px solid;
+    /* color: ${({ theme }) => theme.text}; */
+    background-color: transparent;
+    outline: none;
+    padding: 5px;
+    width: 100%;
+}
+
